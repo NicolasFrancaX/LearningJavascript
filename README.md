@@ -1,4 +1,5 @@
 LearningJavascript
 ==================
 
-Códigos que faço com Javascript quando estou estudando... :)
+Códigos que faço quando estou estudando Javascript.
+:)
