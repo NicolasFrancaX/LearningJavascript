@@ -1,3 +1,8 @@
+// Escreva uma função titleize(text) que converte cada primeira 
+// letra de cada palavra em maiúsculas. 
+//
+// titleize("this IS just A tExT"); // This Is Just A Text.
+
 function titleize(text) {
   word = text.toLowerCase();
   var words = word.split(" ");

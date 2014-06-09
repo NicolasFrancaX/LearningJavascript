@@ -1,3 +1,7 @@
+// Escreva uma função primes(start, end) que retorne um array 
+// contendo os números primos deste intervalo. Números primos 
+// são aqueles maiores que 1 e divisíveis apenas por 1 e ele mesmo.
+
 function prime(n) {
   for (var i = 2; i !== n; i++)
     if (n === 1 || n % i === 0) return false;
@@ -10,5 +14,3 @@ function primes(start, end) {
     if (prime(i)) numbers.push(i);
   return numbers;
 }
-
-console.log(primes(1, 1000));
