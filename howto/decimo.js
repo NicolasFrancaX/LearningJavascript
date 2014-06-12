@@ -20,5 +20,3 @@ function primes(start, end) {
   }
   return numbers;
 }
-
-console.log(primes(1, 5));
