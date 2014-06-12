@@ -8,7 +8,12 @@
 // }) => 9
 
 function first(array, filter) {
-  for (var i = 0; i < array.length; i++)
-    if (typeof filter !== 'function') return array[0];
-    else if (filter(array[i])) return array[i];
+  for (var i = 0; i < array.length; i++) {
+    if (typeof filter !== 'function') {
+      return array[0];
+    }
+    else if (filter(array[i])) {
+      return array[i];
+    }
+  }
 }
