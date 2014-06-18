@@ -1,7 +1,7 @@
-// Escreva uma função titleize(text) que converte cada primeira 
-// letra de cada palavra em maiúsculas. 
+// Escreva uma função titleize(text) que converte cada primeira
+// letra de cada palavra em maiúsculas.
 //
-// titleize("this IS just A tExT"); // This Is Just A Text.
+// titleize("this IS just A tExT"); // This Is Just A Text
 
 function titleize(text) {
   word = text.toLowerCase();
@@ -14,5 +14,3 @@ function titleize(text) {
   }
   return title;
 }
-
-console.log(titleize("This Is just A TeExt."));

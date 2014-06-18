@@ -12,8 +12,11 @@ function Account(description, balance) {
 }
 
 Account.prototype.withdraw = function(amount) {
-  if (amount <= this.balance) this.balance -= amount;
-  else console.log("Saldo insuficiente para esse saque.");
+  if (amount <= this.balance) {
+    this.balance -= amount;
+  } else {
+    console.log("Saldo insuficiente para esse saque.");
+  }
 };
 
 Account.prototype.deposit = function(amount) {

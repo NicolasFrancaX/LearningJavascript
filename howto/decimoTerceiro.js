@@ -1,5 +1,5 @@
-// Crie uma função construtora Rect(width, height) que 
 // representa um retângulo. Crie funções de instância que retornam 
+// Crie uma função construtora Rect(width, height) que 
 // a área, perímetro e diagonal do retângulo representado.
 
 function Rect(width, height) {
