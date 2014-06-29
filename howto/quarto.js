@@ -1,5 +1,7 @@
-// Crie um objeto chamado Calc que implemente as quatro operações 
-// básicas da matemática (soma, subtração, multiplicação e divisão).
+/**
+ * Crie um objeto chamado Calc que implemente as quatro operações
+ * básicas da matemática (soma, subtração, multiplicação e divisão).
+ */
 
 var Calc = {
     soma: function(n1, n2) {
