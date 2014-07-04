@@ -7,6 +7,7 @@
  * Lance uma exceção com a palavra-chave throw caso uma retirada tente ser
  * realizada em uma conta sem saldo.
  */
+
 function Account(description, balance) {
   this.description = description;
   this.balance = balance;
