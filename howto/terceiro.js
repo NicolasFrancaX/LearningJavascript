@@ -5,5 +5,5 @@
 
 function isVowel(vowel) {
   letter = vowel.toLowerCase();
-  return ("aeiou".indexOf(letter) >= 0);
+  return 'aeiou'.indexOf(letter) >= 0;
 }

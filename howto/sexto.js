@@ -4,7 +4,7 @@
  */
 
 function reverse(text) {
-  return text.split("")
+  return text.split('')
     .reverse()
-    .join("");
+    .join('');
 }
