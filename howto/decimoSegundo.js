@@ -18,5 +18,6 @@ function pad(text, size, character) {
       string += character;
     }
   }
+
   return string;
 }
