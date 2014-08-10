@@ -7,7 +7,7 @@
 function pad(text, size, character) {
   var string = '';
 
-  if (character === undefined) {
+  if (!character) {
     character = ' ';
   }
 
