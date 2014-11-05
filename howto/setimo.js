@@ -5,13 +5,10 @@
 
 function letterFrequence(text) {
   var frequence = {};
-
-  for (var i = 0; i < text.length; i++) {
-    if (!frequence[text[i]]) {
-      frequence[text[i]] = 0;
-    }
-    frequence[text[i]]++;
-  }
+  
+  text.split('').map(function(letter) {
+    !frequence[letter] ? frequence[letter] = 1 : frequence[letter] += 1;
+  });
 
   return frequence;
 }
