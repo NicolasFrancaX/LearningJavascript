@@ -6,6 +6,8 @@
  * Account.prototype.transfer(amount, account);
  * Lance uma exceção com a palavra-chave throw caso uma retirada tente ser
  * realizada em uma conta sem saldo.
+ *
+ * Testando com o Lucas. (:
  */
 
 function Account(description, balance) {
